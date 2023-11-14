@@ -324,3 +324,48 @@ nav form button {
 .next-button {
   right: 10px;
 }
+
+
+/* -----------About us--------------------------------------------------------------- */
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  text-align: justify;
+}
+
+
+.about-text h1 {
+  color: #e928af;
+  padding-left: 126px;
+
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-text {
+    margin-left: 20px;
+    text-align: left;
+  }
+}
