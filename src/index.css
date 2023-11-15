@@ -483,3 +483,56 @@ footer {
 .social-icons a:hover {
   color: #1bc794;
 }
+
+/* -----venue list--------------------------------------------------------------------- */
+
+
+.mini-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #f43cbd;
+}
+
+.venue-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Styles for the search bar in the VenueList component */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #292727;
+  border-radius: 4px;
+}
+
+input[type='text']:focus {
+  outline: none;
+  border-color: #f43cbd;
+  box-shadow: 0 0 0 3px rgba(10, 197, 230, 0.25);
+}
