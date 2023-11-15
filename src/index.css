@@ -369,3 +369,117 @@ nav form button {
     text-align: left;
   }
 }
+
+/* ----------view users----- */
+
+/* allusers.css */
+
+/* Center the table header */
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Center the table cells */
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+/* Add some spacing to the component */
+/* div {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* -------Footer------------------------------------------------------------------- */
+
+
+
+footer {
+  background-color: black;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #c10f7d;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.footer-section p {
+  color: #807a7a;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  color: #807a7a;
+}
+
+.footer-section ul li a {
+  color: #807a7a;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #807a7a;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-text {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #807a7a;
+}
+
+/* .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  } */
+
+.footer-section ul li a:hover {
+  color: #1bc794;
+}
+
+.social-icons a:hover {
+  color: #1bc794;
+}
