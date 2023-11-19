@@ -536,3 +536,350 @@ input[type='text']:focus {
   border-color: #f43cbd;
   box-shadow: 0 0 0 3px rgba(10, 197, 230, 0.25);
 }
+
+
+/* venue image */
+.col-4 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.col-4 img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.col-4 p {
+  margin: 10px 0;
+}
+
+.rating {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.page-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-btn span {
+  padding: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+
+/* ----------contact us---------------------------------------------------------------- */
+
+
+.master-wrapper-content {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  margin: 0 auto;
+}
+
+.master-column-wrapper {
+  position: relative;
+  z-index: 0;
+  /* background-color: #03a855; */
+}
+
+.centre-1 {
+  margin: 0 0 100px;
+}
+
+.page-head {
+  background: url('https://images.unsplash.com/photo-1542665952-14513db15293?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VkZGluZyUyMGhhbGx8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+  min-height: 200px;
+  padding-top: 200px;
+  max-width: 100%;
+
+
+}
+
+.page-head h3 {
+  color: #da1495;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.container {
+  /* width: 800; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #4e0e0e;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1024px) {
+  .page-head h3 {
+    font-size: 2.3em;
+  }
+}
+
+.banner_bottom {
+  padding: 2em 0;
+
+}
+
+.container3 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+
+}
+
+.contact-grid1 {
+  float: left;
+  width: 32%;
+  padding: 0 7px;
+  background: #171616;
+  text-align: center;
+  padding: 2em 1em;
+
+}
+
+/* .contact-grid2{
+    min-height: 216px;
+    padding-top: 37px;
+} */
+.contact-grid2 i {
+  color: #fff;
+  font-size: 33px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+
+}
+
+.contact-grid1 h4 {
+  font-size: 1.4em;
+  margin: 20px 0;
+  color: #da1495;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-grid1 p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.contact-grid1 p span {
+  display: block;
+
+}
+
+.contact-grid1:nth-child(2) {
+  margin: 0 1%;
+}
+
+.contact-grid1:nth-child(3) {
+  margin: -183px 1%;
+  float: left;
+  margin-left: 833px;
+  height: 128px;
+
+}
+
+.contact_container {
+  margin-top: -106px;
+  width: 650px;
+  margin-left: 300px;
+}
+
+@media (max-width: 576) {
+  .page-head h3 {
+    font-size: 2.3em;
+  }
+
+  .contact_container {
+    margin-left: 74px;
+    width: 337px;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-head h3 {
+    font-size: 2.3em;
+  }
+
+  .conatiner_content {
+    height: 744px;
+
+    width: 462px;
+  }
+}
+
+/* -----venue details page--------------------------------------------------------------------- */
+
+.venue-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #f2f2f2; */
+}
+
+.venue-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.venue-image {
+  width: 100%;
+  max-width: 900px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.venue-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.venue-details {
+  width: 100%;
+  max-width: 400px;
+}
+
+.venue-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.venue-details p {
+  margin-bottom: 5px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Responsive Styles */
+
+@media (min-width: 768px) {
+  .venue-layout {
+    flex-direction: row;
+  }
+
+  .venue-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .venue-image {
+    flex-basis: 40%;
+    padding-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .venue-details {
+    flex-basis: 60%;
+  }
+}
+
+/* Assuming you have a background image for the venue */
+.review-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.review-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.review-list {
+  list-style: none;
+  padding: 0;
+}
+
+.review-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.review-content {
+  margin: 0;
+}
+
+.review-author {
+  font-weight: bold;
+  margin: 0;
+}
+
+.review-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query for responsiveness */
+@media screen and (min-width: 768px) {
+  .review-list-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .review-section {
+    width: 50%;
+  }
+}
