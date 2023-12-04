@@ -883,3 +883,303 @@ button {
     width: 50%;
   }
 }
+
+/* -------booking------------------------------------------------------------------- */
+
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+
+}
+
+.page-head1 {
+  min-height: 600px;
+  padding-top: 200px;
+  max-width: 100%;
+  background-image: url('https://yannidesignstudio.com/app/uploads/2019/08/pearl-banquet-and-conference-center-indian-wedding-ceremony-reception-venue-floral-centerpieces-flower-arrangements-candles-lights-aisle-decor-garden-theme-mandap-greenery-decorations-ideas-marriage-pictures-photos.jpg');
+
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-col {
+  flex: 1;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-row input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* .form-col button {
+  padding: 8px 100px;
+  background-color: #ff00d9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* button:hover {
+  background-color: #08090a;
+} */
+
+
+
+/* ------Booking list------------------------------ */
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking-list h2 {
+  color: #df16c0;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.booking-table th {
+  text-align: left;
+  background-color: #c1e6f5;
+  font-weight: bold;
+  color: #df16c0;
+  font-size: 15px;
+}
+
+.booking-table td {
+  vertical-align: middle;
+  color: #555;
+}
+
+.booking-table .actions {
+  white-space: nowrap;
+}
+
+.booking-table button {
+  padding: 8px 12px;
+  background-color: #14ccff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-table button:hover {
+  background-color: #FF007F;
+}
+
+.no-booking {
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+}
+
+
+
+/* ------your profile------------------------------ */
+/* UserProfile.css */
+/* Common styles for all devices */
+.user-profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.text-fields-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text-fields-row label {
+  flex: 1;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.text-fields-row input[type="text"] {
+  flex: 2;
+  max-width: 200px;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Responsive CSS */
+
+/* For small devices (e.g., smartphones) */
+@media (max-width: 480px) {
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+
+  .text-fields-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text-fields-row label,
+  .text-fields-row input[type="text"] {
+    width: 100%;
+    max-width: unset;
+  }
+
+  .user-actions {
+    flex-direction: column;
+  }
+
+  .user-actions button {
+    width: 100%;
+    max-width: 150px;
+  }
+}
+
+/* For medium-sized devices (e.g., tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+
+  .text-fields-row input[type="text"] {
+    max-width: 180px;
+  }
+
+  .user-actions button {
+    max-width: 120px;
+  }
+}
+
+/* ... other styles ... */
+
+
+
+.text-fields-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text-fields-row label {
+  margin-right: 10px;
+  color: #807a7a;
+}
+
+.text-fields-row input {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.user-actions {
+  margin-top: 10px;
+}
+
+.user-actions button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #e443c7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-actions button:hover {
+  background-color: #3edee7;
+}
+
+
+/* -------add venue------------------------------------------------------------------- */
+
+.form-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #6bb5c9;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  background-color: #80beac;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-group1 {
+  margin-bottom: 15px;
+}
+
+.form-group1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group1 input {
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ea8383;
+
+}
+
+.btn {
+  background-color: #f03699;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
