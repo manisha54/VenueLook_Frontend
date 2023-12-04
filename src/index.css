@@ -143,3 +143,135 @@ a:hover {
 }
 
 
+
+
+/* ------Navbar-------------------------------------------------------------------- */
+/* Default styles */
+
+nav {
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 100px;
+}
+
+nav .logo {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+nav .nav-items {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  padding: 0 0 0 40px;
+}
+
+nav .nav-items li {
+  padding: 0 15px;
+}
+
+nav .nav-items li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav .nav-items li a:hover {
+  color: #FF1493;
+}
+
+nav form {
+  display: flex;
+  height: 40px;
+  border-radius: 2px;
+  padding: 2px;
+  background: #1e232b;
+  min-width: 18% !important;
+  border: 1px solid rgba(155, 155, 155, 0.2);
+}
+
+nav form .search-data {
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 500;
+  background: none;
+  border: none;
+  font-size: 17px;
+}
+
+nav form button {
+  padding: 0 15px;
+  background: #FF1493;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.profile:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ed26a8;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 20px;
+  }
+
+  nav .nav-items {
+    display: none;
+  }
+
+  nav form {
+    flex: 1;
+    min-width: auto !important;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .logo {
+    font-size: 24px;
+  }
+
+  nav form {
+    margin-left: 0;
+  }
+
+  nav form button {
+    padding: 0 10px;
+  }
+}
+
+
