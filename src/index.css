@@ -78,3 +78,68 @@ a:hover {
 
 
 
+
+/* -----register ------------------------------- */
+
+
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://yannidesignstudio.com/app/uploads/2019/08/pearl-banquet-and-conference-center-indian-wedding-ceremony-reception-venue-floral-centerpieces-flower-arrangements-candles-lights-aisle-decor-garden-theme-mandap-greenery-decorations-ideas-marriage-pictures-photos.jpg');
+  background-size: cover;
+}
+
+.register-container {
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #20b3d7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f43cbd;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
