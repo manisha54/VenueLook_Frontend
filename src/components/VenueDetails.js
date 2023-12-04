@@ -128,7 +128,7 @@ export default function VenueDetails() {
         {venues.map((venue) => (
           <div className="venue-card" key={venue.id}>
             <div className="venue-image">
-              <img src={`http://localhost:3001/uploads/${venue.picture}`} alt="Venue" />
+              <img src={`http://localhost:3007/uploads/${venue.picture}`} alt="Venue" />
             </div>
             <div className="venue-details">
               <h2>{venue.name}</h2>

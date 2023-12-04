@@ -41,7 +41,7 @@ export default function VenueList({ venues }) {
           {filteredVenues.map((venue) => (
             <div key={venue.id} className="col-4">
               <Link to={`/venues/${venue.id}`} >
-                <img src={`http://localhost:3001/uploads/${venue.picture}`} alt="venue" />
+                <img src={`http://localhost:3007/uploads/${venue.picture}`} alt="venue" />
               </Link>
 
               <p className="lead" style={{ fontSize: '30px' }}>

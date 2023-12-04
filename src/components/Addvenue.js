@@ -59,7 +59,7 @@ export default function Addvenue() {
         formData.append('fileName', selectedFile.name);
         console.log(formData);
         axios
-          .post('http://localhost:3001/upload', formData, {
+          .post('http://localhost:3007/upload', formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
             },

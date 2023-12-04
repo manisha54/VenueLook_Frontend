@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseUrl = 'http://localhost:3001/bookings'
+const baseUrl = 'http://localhost:3007/bookings'
 
 const getToken = () => `bearer ${window.localStorage.getItem('token')}`
 

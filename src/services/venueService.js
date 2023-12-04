@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseUrl = 'http://localhost:3001/venues'
+const baseUrl = 'http://localhost:3007/venues'
 const getToken = () => `bearer ${window.localStorage.getItem('token')}`
 
 const getAllVenues = () => {
@@ -57,7 +57,7 @@ const uploadImage = (imageData) => {
     const formData = new FormData();
     formData.append('photo', imageData);
 
-    return axios.post(`http://localhost:3001/upload/`, formData, {
+    return axios.post(`http://localhost:3007/upload/`, formData, {
         headers: {
             Authorization: getToken(),
             'Content-Type': 'multipart/form-data' // Important for file uploads
