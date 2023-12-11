@@ -9,7 +9,8 @@ export default function Register() {
     email: "",
     phoneNumber: "",
     password: ""
-  })
+  });
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -33,8 +34,11 @@ export default function Register() {
           phoneNumber: "",
           password: ""
         });
+        setErrorMessage('');
       })
-      .catch((err) => window.alert(err.response.data.error))
+      .catch((err) => {
+        setErrorMessage(err.response.data.error); // Set error message on registration failure
+      });
   }
   return (
     <div>
@@ -69,7 +73,12 @@ export default function Register() {
               type="password"
               placeholder="password"
               value={credentials.password}
-              onChange={(e) => setCredentials({ ...credentials, password: e.target.value })} />
+              onChange={(e) => {
+                setCredentials({ ...credentials, password: e.target.value });
+                setErrorMessage(''); // Clear error message while typing in password field
+              }}
+            />
+            {errorMessage && <p className="error-message">{errorMessage}</p>}
             <button
               type="submit"
               onClick={handleSubmit}

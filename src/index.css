@@ -144,6 +144,15 @@ a:hover {
 
 
 
+/* New styles for error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
 
 /* ------Navbar-------------------------------------------------------------------- */
 /* Default styles */
