@@ -15,7 +15,7 @@ export default function AboutUs() {
             <h1>About Venue Look</h1>
             <br></br>
             <p>
-              VenueLook is a venue booking mobile application designed to help users
+              VenueLook is a venue booking web application designed to help users
               find venues for various occasions such as weddings, parties, and meetings.
               This platform provides a convenient way for users to search for book venues
               without any difficulty. Users can book venues as per their location,
